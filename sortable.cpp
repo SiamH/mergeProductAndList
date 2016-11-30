@@ -88,18 +88,6 @@ class Parser
     };
 
 
-    bool IsParenthesesOrDash(char c)
-    {
-        switch(c)
-        {
-        case '{':
-        case '}':
-        case '"':
-            return true;
-        default:
-            return false;
-        }
-    }
 
     string GetToken(string s, int index)
     {
